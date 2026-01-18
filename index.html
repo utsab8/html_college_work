@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Exercises - Complete Web Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            color: #333;
+            border-bottom: 3px solid #4CAF50;
+            padding-bottom: 10px;
+        }
+        
+        h2 {
+            color: #4CAF50;
+            margin-top: 30px;
+        }
+        
+        h3 {
+            color: #666;
+        }
+        
+        /* Exercise 3 - Table Styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        
+        table caption {
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        
+        th, td {
+            border: 2px solid #4CAF50;
+            padding: 12px;
+            text-align: left;
+        }
+        
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        
+        /* Exercise 2 - Form Styling */
+        form {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        
+        label {
+            display: block;
+            margin: 10px 0 5px 0;
+            font-weight: bold;
+        }
+        
+        input[type="text"],
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        
+        input[type="radio"],
+        input[type="checkbox"] {
+            margin-right: 5px;
+        }
+        
+        .radio-group,
+        .checkbox-group {
+            margin: 10px 0;
+        }
+        
+        button[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        
+        button[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        
+        /* Exercise 4 - Semantic Elements Styling */
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        
+        nav {
+            background-color: #4CAF50;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 5px 10px;
+        }
+        
+        nav a:hover {
+            background-color: #45a049;
+            border-radius: 3px;
+        }
+        
+        article {
+            background-color: #e8f5e9;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        
+        aside {
+            background-color: #fff3e0;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+            border-left: 4px solid #ff9800;
+        }
+        
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 30px;
+            text-align: center;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        
+        ul, ol {
+            margin: 10px 0;
+            padding-left: 30px;
+        }
+        
+        .exercise-section {
+            border: 2px solid #4CAF50;
+            padding: 20px;
+            margin: 30px 0;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- EXERCISE 4: Semantic HTML5 Elements -->
+        <!-- Header: Contains the main title and description of the page -->
+        <header>
+            <h1>HTML Exercises - Complete Web Development Practice</h1>
+            <p>This webpage demonstrates various HTML elements including basic tags, forms, tables, and semantic HTML5 elements.</p>
+        </header>
+
+        <!-- Navigation: Provides links to different sections of the website -->
+        <nav>
+            <a href="#exercise1">Exercise 1</a>
+            <a href="#exercise2">Exercise 2</a>
+            <a href="#exercise3">Exercise 3</a>
+            <a href="#exercise4">Exercise 4</a>
+            <a href="https://www.google.com" target="_blank">Visit Google</a>
+        </nav>
+
+        <!-- EXERCISE 1: Simple Web Page -->
+        <div class="exercise-section" id="exercise1">
+            <h2>Exercise 1: Simple Web Page</h2>
+            
+            <!-- Three different headings -->
+            <h1>Welcome to HTML Learning</h1>
+            <h2>Getting Started with HTML</h2>
+            <h3>Understanding Basic Tags</h3>
+            
+            <!-- Two paragraphs of text -->
+            <p>HTML (HyperText Markup Language) is the standard markup language for creating web pages. It provides the structure and content of a webpage, allowing browsers to display text, images, and other media in a readable format. Learning HTML is the first step toward becoming a web developer.</p>
+            
+            <p>Web pages consist of various elements such as headings, paragraphs, lists, links, and images. Each element serves a specific purpose and helps organize content effectively. By mastering these basic elements, you can create attractive and functional web pages.</p>
+            
+            <!-- Unordered list -->
+            <h3>Key Benefits of Learning HTML:</h3>
+            <ul>
+                <li>Foundation for web development</li>
+                <li>Easy to learn and understand</li>
+                <li>Works with CSS and JavaScript</li>
+                <li>Essential for every web developer</li>
+            </ul>
+            
+            <!-- Ordered list -->
+            <h3>Learning Steps:</h3>
+            <ol>
+                <li>Understand HTML structure and tags</li>
+                <li>Practice creating basic web pages</li>
+                <li>Learn about forms and tables</li>
+                <li>Explore semantic HTML5 elements</li>
+            </ol>
+            
+            <!-- Hyperlink to external website -->
+            <p>For more information, <a href="https://www.google.com" target="_blank">Visit Google</a> to search for HTML tutorials and resources.</p>
+            
+            <!-- Image from the web -->
+            <img src="https://via.placeholder.com/600x300/4CAF50/ffffff?text=HTML+Learning" alt="HTML Learning Banner" />
+        </div>
+
+        <!-- EXERCISE 2: Building a Form -->
+        <div class="exercise-section" id="exercise2">
+            <h2>Exercise 2: Building a Form</h2>
+            <form action="#" method="post">
+                <!-- Text input field for name -->
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                
+                <!-- Radio buttons for gender -->
+                <label>Gender:</label>
+                <div class="radio-group">
+                    <input type="radio" id="male" name="gender" value="male" required>
+                    <label for="male">Male</label>
+                    
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                    
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label>
+                </div>
+                
+                <!-- Checkboxes for hobbies -->
+                <label>Favorite Hobbies (select all that apply):</label>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="reading" name="hobbies" value="reading">
+                    <label for="reading">Reading</label><br>
+                    
+                    <input type="checkbox" id="gaming" name="hobbies" value="gaming">
+                    <label for="gaming">Gaming</label><br>
+                    
+                    <input type="checkbox" id="sports" name="hobbies" value="sports">
+                    <label for="sports">Sports</label><br>
+                    
+                    <input type="checkbox" id="music" name="hobbies" value="music">
+                    <label for="music">Music</label><br>
+                    
+                    <input type="checkbox" id="traveling" name="hobbies" value="traveling">
+                    <label for="traveling">Traveling</label>
+                </div>
+                
+                <!-- Textarea for comments -->
+                <label for="comments">Additional Comments:</label>
+                <textarea id="comments" name="comments" rows="5" placeholder="Enter any additional comments or feedback here..."></textarea>
+                
+                <!-- Submit button -->
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+        <!-- EXERCISE 3: HTML Tables -->
+        <div class="exercise-section" id="exercise3">
+            <h2>Exercise 3: HTML Tables</h2>
+            <table>
+                <!-- Caption describing the table's purpose -->
+                <caption>Student Information Directory</caption>
+                
+                <!-- Table heading row -->
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>City</th>
+                        <th>Course</th>
+                        <th>Grade</th>
+                    </tr>
+                </thead>
+                
+                <!-- Table body with data rows -->
+                <tbody>
+                    <tr>
+                        <td>John Smith</td>
+                        <td>20</td>
+                        <td>New York</td>
+                        <td>Computer Science</td>
+                        <td>A+</td>
+                    </tr>
+                    <tr>
+                        <td>Emily Johnson</td>
+                        <td>22</td>
+                        <td>Los Angeles</td>
+                        <td>Web Development</td>
+                        <td>A</td>
+                    </tr>
+                    <tr>
+                        <!-- Merged cells example (spanning 2 columns) -->
+                        <td colspan="2">Sarah Williams (Double Major)</td>
+                        <td>Chicago</td>
+                        <td>Design & Marketing</td>
+                        <td>A-</td>
+                    </tr>
+                    <tr>
+                        <td>Michael Brown</td>
+                        <td>21</td>
+                        <td>Houston</td>
+                        <td>Data Science</td>
+                        <!-- Merged cells example (spanning 2 rows) -->
+                        <td rowspan="2">A</td>
+                    </tr>
+                    <tr>
+                        <td>Lisa Davis</td>
+                        <td>19</td>
+                        <td>Phoenix</td>
+                        <td>Data Science</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- EXERCISE 4: HTML Semantic Elements -->
+        <div class="exercise-section" id="exercise4">
+            <h2>Exercise 4: HTML Semantic Elements</h2>
+            
+            <!-- Article: Contains the main content related to the page topic -->
+            <article>
+                <h3>Understanding Semantic HTML5</h3>
+                <p>Semantic HTML5 elements provide meaning to the structure of web pages, making them more accessible and easier to understand for both browsers and developers. These elements clearly define different sections of a webpage.</p>
+                
+                <h4>Key Semantic Elements:</h4>
+                <ul>
+                    <li><strong>&lt;header&gt;</strong>: Represents introductory content or navigational aids</li>
+                    <li><strong>&lt;nav&gt;</strong>: Contains navigation links for the website</li>
+                    <li><strong>&lt;article&gt;</strong>: Represents independent, self-contained content</li>
+                    <li><strong>&lt;aside&gt;</strong>: Contains content tangentially related to the main content</li>
+                    <li><strong>&lt;footer&gt;</strong>: Represents footer information for its nearest section</li>
+                </ul>
+                
+                <p>Using semantic elements improves SEO, accessibility, and code maintainability. Search engines can better understand your content structure, and screen readers can navigate your page more effectively.</p>
+            </article>
+            
+            <!-- Aside: Contains additional or related information -->
+            <aside>
+                <h4>Did You Know?</h4>
+                <p>Semantic HTML5 was introduced to make web pages more meaningful and accessible. Before HTML5, developers relied heavily on generic &lt;div&gt; elements with class names, which made it harder for assistive technologies to understand the page structure.</p>
+                <p>Modern web browsers fully support semantic elements, and they work seamlessly with CSS for styling purposes.</p>
+            </aside>
+        </div>
+
+        <!-- Footer: Contains contact information and copyright details -->
+        <footer>
+            <p><strong>Contact Information:</strong></p>
+            <p>Email: contact@htmllearning.com | Phone: (555) 123-4567</p>
+            <p>&copy; 2024 HTML Learning Exercises. All rights reserved.</p>
+            <p>This webpage is created for educational purposes.</p>
+        </footer>
+    </div>
+</body>
+</html>
+
